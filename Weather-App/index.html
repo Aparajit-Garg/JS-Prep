@@ -10,8 +10,10 @@
 <body>
     <div class="weather_app">
         <div class="search_component">
-            <input id="city" type="text" placeholder="enter city" />
-            <img src="./public/images/search.png" alt="search" />
+            <input id="city" type="text" placeholder="enter city" spellcheck="false" />
+            <div class="loading"><div id="loader" class="loader"></div></div>
+            <div class="error" id="error"></div>
+            <button id="searchBtn"> <img src="./public/images/search.png" alt="search" /> </button>
         </div>
         <div id="weather" class="weather">
             <img src="./public/images/mist.png" alt="weather" />
