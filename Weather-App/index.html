@@ -8,8 +8,38 @@
     <title>Weather App by Aparajit</title>
 </head>
 <body>
-    <div>
-        
+    <div class="weather_app">
+        <div class="search_component">
+            <input id="city" type="text" placeholder="enter city" />
+            <img src="./public/images/search.png" alt="search" />
+        </div>
+        <div id="weather" class="weather">
+            <img src="./public/images/mist.png" alt="weather" />
+        </div>
+        <div id="temperature" class="temperature">
+            <span> 0&deg;c </span>
+            <span> Germany </span>
+        </div>
+        <div id="weather_details" class="weather_details">
+            <div id="detail1" class="detail1"> 
+                <span>
+                    <img src="./public/images/humidity.png" />
+                </span>
+                <span>
+                    <span> 100% </span>
+                    <span> Humidity </span>
+                </span>
+            </div>
+            <div id="detail2" class="detail2"> 
+                <span>
+                    <img src="./public/images/wind.png" />
+                </span>
+                <span>
+                    <span> 1.85 km/h </span>
+                    <span> Wind Speed </span>
+                </span>
+            </div>
+        </div>
     </div>
 
     <script src="./src/script.js"></script>
