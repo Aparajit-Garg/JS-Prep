@@ -59,6 +59,7 @@ body {
     all: unset;
     color: black;
     width: 100%;
+    pointer-events: none;
 }
 
 .input_section > span:first-child >  img {
@@ -82,6 +83,7 @@ body {
     gap: 0.5rem;
     padding: 0.8rem;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .generate > img {
