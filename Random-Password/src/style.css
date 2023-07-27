@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #002339;
+    color: #fff;
+    height: 100vh;
+}
+
+.password_generator {
+    position: relative;
+    max-width: 700px;
+    width: 90%;
+    /* height: 200px; */
+    margin: 12%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.password_generator > h2 {
+    font-size: 32px;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.password_generator > h2 > span {
+    color: green;
+    width: fit-content;
+    padding: 0.3rem 0;
+    border-bottom: 3px solid green;
+}
+
+.input_section {
+    width: 80%;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input_section > span:first-child {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input_section > span:first-child > input {
+    all: unset;
+    color: black;
+    width: 100%;
+}
+
+.input_section > span:first-child >  img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.made_by {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.generate {
+    background-color: green;
+    color: #fff;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.generate > img {
+    width: 25px;
+}
+
+.generate > button {
+    all: unset;
+    font-size: 18px;
+}
