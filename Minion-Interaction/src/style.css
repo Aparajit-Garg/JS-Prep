@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&family=Redressed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Redressed';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    background-color: #FCD34D;
+    flex-direction: column;
+}
+
+.header_section {
+    padding: 2rem;
+    width: inherit;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #FCD34D;
+}
+
+.header_section > h2 {
+    font-family: var(--secondary-font);
+    font-size: 34px;
+}
+
+.header_section > h3 {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: var(--primary-font);
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #FCD34D;
+}
+
+main > button {
+    all: unset;
+    color: #FCD34D;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    background-color: black;
+    padding: 1.2rem 2rem;
+    border-radius: 15px;
+    outline: 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+main > textarea {
+    width: 70%;
+    min-height: 250px;
+    padding: 1rem; 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: black;
+    height: auto;
+    color: #FCD34D;
+    gap: 1rem;
+    height: 100%;
+}
+
+footer > p {
+    width: 90%;
+}
