@@ -1,0 +1,41 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.telephone_formatter {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content > input {
+    width: 130px;
+    padding: 0.4rem;
+}
+
+.content > label {
+    width: 130px;
+    text-align: center;
+}
