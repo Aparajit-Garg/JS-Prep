@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toastMain {
+    width: 100%;
+    height: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 1rem;
+}
+
+.buttons > button {
+    all: unset;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons > button:first-child {
+    background-color: green;
+}
+
+.buttons > button:nth-child(2) {
+    background-color: orange;
+}
+
+.buttons > button:nth-child(3) {
+    background-color: cyan;
+}
+
+.buttons > button:nth-child(4) {
+    background-color: red;
+}
+
+.toast {
+    width: 200px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title > p {
+    padding: 0 0.3rem;
+}
+
+.title > button {
+    all: unset;
+    padding: 0 0.3rem;
+    cursor: pointer;
+}
+
+.description {
+    padding: 0.3rem;
+}
+
+.toast_head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
