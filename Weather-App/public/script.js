@@ -43,25 +43,25 @@ const fetchWeather = async () => {
 
         switch (data.weather.main) {
             case 'Clouds':
-                weather.children[0].src = './public/images/clouds.png'
+                weather.children[0].src = './images/clouds.png'
                 break
             case 'Mist':
-                weather.children[0].src = './public/images/mist.png'
+                weather.children[0].src = './images/mist.png'
                 break
             case 'Rain':
-                weather.children[0].src = './public/images/rain.png'
+                weather.children[0].src = './images/rain.png'
                 break
             case 'Clear':
-                weather.children[0].src = './public/images/clear.png'
+                weather.children[0].src = './images/clear.png'
                 break
             case 'Snow':
-                weather.children[0].src = './public/images/snow.png'
+                weather.children[0].src = './images/snow.png'
                 break
             case 'Drizzle':
-                weather.children[0].src = './public/images/drizzle.png'
+                weather.children[0].src = './images/drizzle.png'
                 break
             default:
-                weather.children[0].src = './public/images/clear.png'
+                weather.children[0].src = './images/clear.png'
                 break
 
         }
